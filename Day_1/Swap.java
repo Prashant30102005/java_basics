@@ -1,3 +1,4 @@
+package Day_1;
 import java.util.Scanner;
 public class Swap{
     public static void main(String[] args){
@@ -11,6 +12,6 @@ public class Swap{
         b=temp;
         System.out.println("the first number: "+a);
         System.out.println("the second number: "+b);
-                
+    
     }    
 }
