@@ -1,4 +1,3 @@
-package Day_1;
 import java.util.Scanner;
 public class Swap{
     public static void main(String[] args){
