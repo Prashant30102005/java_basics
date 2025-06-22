@@ -1,3 +1,4 @@
+package Day_2;
 import java.util.Scanner;
 public class Larger {
     public static void main(String[] args){
