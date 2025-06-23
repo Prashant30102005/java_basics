@@ -1,4 +1,18 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+  // Java language support settings
+  "java.project.sourcePaths": [
+    "." // Set current folder (java_basics) as the Java package root
+  ],
+  // Optional but helpful Java settings:
+  "java.configuration.checkProjectSettingsExclusions": false, // Avoid false exclusion warnings
+  "java.errors.incompleteClasspath.severity": "warning", // Avoid red error lines for missing classpath
+  "java.configuration.updateBuildConfiguration": "automatic", // Keep the build path updated automatically
+  "java.compile.nullAnalysis.mode": "automatic", // Enable null checks
+  // Editor formatting options (optional)
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  // Terminal shell (optional customization)
+  "terminal.integrated.defaultProfile.windows": "Command Prompt"
 }
-
